@@ -29,7 +29,7 @@ void main() {
 		
 	}
 	cout << "Buen dia hasta pronto :)" << endl;
-
+	cout << "bye" << endl;
 	system("pause > nul");
 }
 
