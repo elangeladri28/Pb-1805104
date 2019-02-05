@@ -139,6 +139,7 @@ void IngresarAlum() {
 		getline(cin, Alum[A].Direccion2);*/
 		cout << "¿Deseas ingresar otro alumno? 1.Si 2.No" << endl;
 		cin >> opcion;
+		A++;
 		if (opcion == 2) {
 			resp = false;
 		}

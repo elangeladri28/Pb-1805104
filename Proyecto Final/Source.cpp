@@ -25,6 +25,7 @@ void manual();
 void IngresarAlum();
 void BorrarAlum();
 void EditarAlum();
+void MostrarAlumReg();
 
 
 int main() {
@@ -57,7 +58,7 @@ void alumnos() {
 	system("cls");
 	cout << "Estas en el menu de alumnos" << endl;
 	cout << "¿Que deseas hacer?" << endl;
-	cout << "1.Ingresar alumno \n 2.Borrar alumno \n 3. Editar alumno \n 4.Salir" << endl;
+	cout << "1.Ingresar alumno \n 2.Borrar alumno \n 3.Editar alumno \n 4.Mostrar alumnos registrados \n 5.Salir" << endl;
 	cin >> opcion;
 	switch (opcion) {
 	case 1:
@@ -69,6 +70,8 @@ void alumnos() {
 	case 3:
 		EditarAlum();
 		break;
+	case 4:
+		MostrarAlumReg();
 	default:
 		break;
 	}
@@ -146,6 +149,9 @@ void IngresarAlum() {
 		}
 	}
 	submenu();
+}
+void MostrarAlumReg() {
+	
 }
 void BorrarAlum() {
 
